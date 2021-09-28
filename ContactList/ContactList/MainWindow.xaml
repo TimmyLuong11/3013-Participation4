@@ -10,11 +10,11 @@
         <ListBox x:Name="listBoxContact" Margin="481,0,0,0" Background="#FF8A7DDE" Foreground="White"/>
         <Button x:Name="buttonDetail" Content="Contact Detail" HorizontalAlignment="Left" Margin="121,44,0,0" VerticalAlignment="Top" Height="58" Width="143" Click="buttonDetail_Click" FontSize="18"/>
         <Image x:Name="imgBox" HorizontalAlignment="Left" Height="229" Margin="250,147,0,0" VerticalAlignment="Top" Width="184"/>
-        <TextBox x:Name="txtFirst" HorizontalAlignment="Left" Margin="48,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <TextBox x:Name="txtFirst" HorizontalAlignment="Left" Margin="48,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" IsEnabled="False"/>
         <Label Content="First" HorizontalAlignment="Left" Margin="89,147,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <TextBox x:Name="txtLast" HorizontalAlignment="Left" Margin="48,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <TextBox x:Name="txtLast" HorizontalAlignment="Left" Margin="48,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" IsEnabled="False"/>
         <Label Content="Last" HorizontalAlignment="Left" Margin="89,217,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="48,333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="48,333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" IsEnabled="False"/>
         <Label Content="Email" HorizontalAlignment="Left" Margin="89,302,0,0" VerticalAlignment="Top" FontSize="16"/>
 
     </Grid>
